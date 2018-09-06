@@ -1,0 +1,290 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+#head{
+	background-color: #FFFFFF;
+	border: 0px;
+	box-shadow:0px 2px 4px 0px  #262626;
+}
+
+#head .navbar-brand {
+	height: 70px;
+	line-height: 30px;
+	color:rgb(40,126,32);
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+#navbar .navbar-nav>li>a{
+	height: 70px;
+	line-height: 30px;
+	color: #666;
+	font-size: 16px;
+	margin-right: 20px;
+}
+#navbar .nav>li.active>a{
+	height: 70px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-top: 2px solid green;
+	background-color: #f2f2f2;
+	color: rgb(40,126,32);
+}
+#carousel{
+	
+	padding: 0;
+}
+#carousel .item{
+	height:400px;
+}
+#carousel .item img{ 
+	width: 100%; 
+	height: 100%;
+}
+#machine{
+	padding:0px
+	height: 500px;
+	position: relative;
+	
+}
+.imgChange{
+	padding: 0px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	
+}
+.imgChange .dir{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	
+}
+.imgChange .dirr{
+	left: 30px;
+	
+}
+.imgMachine{
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.imgMachine ul{
+	width: 300%;
+	height:100%;
+	background: #FFFFFF;
+}
+.imgMachine li{
+	width:33% ;
+	height: 100%;
+	float: left;
+	padding: 0px;
+	
+}
+.imgMachine li img{
+	width: 100%;
+	height: 400px;
+	display: block;
+	padding: 0px;
+	
+	
+}
+#machine .textMachine{
+	height: 400px;
+	text-align: center;
+	color: #FFFFFF;
+	background: rgb(40,126,32) url("../img/coffee2.png") no-repeat  center 32%;
+	padding-top: 40%;
+	background-size: 50px 50px;
+	padding-bottom: 20px;
+	
+	
+}
+.textMachine p{
+	color: #fff;
+	font-size: 25px;
+	margin: 0 0 8px;
+	padding-bottom: 5px;
+}
+
+#imgCoffee{
+	color: #fff;
+	text-align: center;
+	padding: 0;
+	background: url("../img/bean.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+
+#imgCoffee .imgBg {
+	width: 100%;
+	height: 100%;
+	padding: 120px 0 30px 0;
+	background: rgba(0,0,0,0.8);
+	
+}
+#imgCoffee .imgBg .col-sm-2{
+	height: 3px;
+	margin: 15px 0;
+	margin-left: 42%;
+	background: #FFFFFF;
+}
+#hot h1{
+	padding-top: 150px;
+	text-align: center;
+	color: rgb(40,126,32) ;
+	
+}
+#hot hr{
+	color:  #444444;
+	width: 100%;
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#hot .recommend{
+	height: 300px;
+	color: #fff;
+	background: #207a16;
+}
+#hot .recommend h2{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30%;
+	
+}
+#hot .recommend p{
+	padding-top:10%;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+#hot dt{
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 30%;
+	width: 75%;
+	height: 75%;
+	
+}
+#hot dt img{
+	width:100%;
+    border-radius: 50%;
+	transition: 0.3s;
+}
+#hot dt img:hover{
+	transform: scale(1.5);
+}
+#hot dd:nth-of-type(1){
+	color: #333;
+	line-height: 2.2em;
+	font-weight: bold;
+	font-size: 14pt;
+}
+#shop{
+	margin-bottom: 100px;
+}
+#shop h1{
+	padding-top: 150px;
+	text-align: center;
+	color: rgb(40,126,32) ;
+}
+#shop hr{
+	color:  #444444;
+	width: 100%;
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#shop dl{
+	cursor: pointer;
+	background: #ebf5ea;
+	padding-bottom: 18%;
+}
+#shop .show dl{
+	cursor: pointer;
+	background:  rgb(40,126,32);
+	padding-bottom: 18%;
+	color: #FFFFFF;
+}
+#shop .show dl dd{
+	color: #FFFFFF;
+}
+#shop dt{
+	width: 100%;
+	
+}
+#shop dt img{
+	height: 200px;
+}
+#shop dd{
+	text-align: center;
+	
+}
+#shop dd:nth-of-type(1){
+	color: #207a16;
+	font-size: 12pt;
+	line-height: 2em;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#about .aboutImg{
+	padding: 0;
+}
+#about img{
+	width: 100%;
+	height: 400px;
+	
+}
+#about .aboutText{
+	background:#ebf5ea ;
+	padding: 0;
+	height: 400px;
+}
+#about .aboutText p:nth-of-type(1){
+	font-size: 40px;
+	color:rgb(40,126,32) ;
+	padding-left: 10%;
+	padding-top: 30px;
+}
+.aboutText hr{
+	color:  #ddd;
+	height: 4px;
+}
+#about .aboutText p{
+	color: rgb(129,128,124);
+	padding-left: 10%;
+	padding-top: 30px;
+	font-size: 15px;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	background: #262524;
+	color: #fff;
+	
+}
+#footer .footerList a{
+	color: #fff;
+}
+#footer .footerList a:hover{
+	color: #207a16;
+}
+#footer .footerList li:nth-of-type(1){
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
